@@ -7,8 +7,9 @@ namespace FizzBuzzMVCPractice.Models
 {
     public class FizzBuzz
     {
-        public int FizzValue;
-        public int BuzzValue;
+        public int FizzValue { get; set; }
+        public int BuzzValue { get; set; }
+
         public List<string> results = new();
     }
 }
